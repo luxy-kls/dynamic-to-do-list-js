@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', function (){
     const taskList = document.getElementById("task-list");
 
     function addTask(){
-        let taskText = document.getElementById("task-input").value.trim();
-
+        let taskText = taskInput.value.trim();
         //task creation and Removal
         if (taskTest === ""){
             alert("Please enter a task");
