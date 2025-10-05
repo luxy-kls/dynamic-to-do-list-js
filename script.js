@@ -20,8 +20,8 @@ button.addEventListener("click", function() {
   li.remove();
 });
 
-            li.append(button);
-            taskList.append(li);
+            li.appendChild(button);
+            taskList.appendChild(li);
             
             taskInput.value ="";
 }
